@@ -17,11 +17,11 @@ const server = http.createServer((req, res) => {
   }
 
   if (url === "/message" && method === "POST") {
-    // const bvn = req.
-    console.log(res);
+    fs.writeFileSync("message.txt", "DUMMY");
+    res.statusCode = 302;
+    res.setHeader("Location", "/");
+    return res.end();
   }
-  //   console.log(req.url, req.method, req.headers);
-  //   process.exit(); // Quits the server
 
   res.setHeader("Content-Type", "text/html");
   res.write("<html>");
