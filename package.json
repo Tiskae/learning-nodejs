@@ -1,0 +1,23 @@
+{
+  "name": "01-first-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tiskae/learning-nodejs.git"
+  },
+  "author": "Tiskae",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tiskae/learning-nodejs/issues"
+  },
+  "homepage": "https://github.com/tiskae/learning-nodejs#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
